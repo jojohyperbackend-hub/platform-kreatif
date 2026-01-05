@@ -237,8 +237,9 @@ http://localhost/platform-kreatif/
 > Dibuat untuk edukasi & demo sistem PHP Native
 > Fokus ke **alur logika**, bukan framework
 
->untuk tabel scema sql yang lengkap
+>untuk tabel scema sql yang lengkap yang di atas kurang lengkap
 -- Buat database
+```sql
 CREATE DATABASE IF NOT EXISTS platform_kreatif;
 USE platform_kreatif;
 
@@ -309,3 +310,4 @@ VALUES ('admin1', 'admin123');
 di tabel guru
 INSERT INTO guru (username, password)
 VALUES ('guruipa', '12345');
+```
